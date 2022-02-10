@@ -1,0 +1,1146 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 1170px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    height: 59px;
+    width: 122px;
+    padding-left: 0px;
+    text-align: start;
+    margin: 19px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.menu ul {
+    margin: 0px 0px 0px 0px;
+    list-style: none;
+    display: flex;
+    padding: 0px;
+
+}
+
+.menu ul li:last-child {
+    margin-left: 40px;
+}
+
+.menu ul li {
+    font-family: 'Raleway';
+    color: #0065FC;
+    font-size: 15px;
+    padding-top: 40px;
+    border-top: solid 2px #fff;
+}
+
+.menu ul li:hover {
+    padding-top: 40px;
+    border-top: solid 2px #0065FC;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li a:hover {
+    color: #0065FC;
+}
+
+/*pour le lien*/
+.active {
+    color: #0065FC !important;
+}
+
+/*pour le bordure de  li*/
+.click-active {
+    padding-top: 40px;
+    border-top: solid 2px #0065FC !important;
+}
+
+/* -------------Filtres----------------*/
+
+.search {
+    margin: 35px 0px 0px 0px;
+}
+
+.search h1 {
+    font-family: 'Raleway';
+    font-size: 22px;
+}
+
+.search .sous-titre {
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+
+.search div {
+    display: flex;
+}
+
+.icone-gps {
+    background-color: #F2F2F2;
+    height: 43px;
+    width: 47px;
+    margin: 0px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.icone-gps i {
+    padding: 12px 12px 0px 17px;
+    margin-bottom: 0px;
+    text-align: end;
+}
+
+.btn-rechercher-mob {
+    display: none;
+}
+
+.btn-rechercher {
+    height: 43px;
+    width: 109px;
+    border-radius: 0px 13px 13px 0px;
+    border: 0px;
+    background-color: #0065FC;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-rechercher:hover {
+    background-color: #F2F2F2;
+    color: black;
+}
+
+.form-rech {
+    display: flex;
+    flex-direction: row;
+}
+
+.rechercher {
+    width: 30%;
+    height: 37px;
+    border-top: 2px #F2F2F2 solid;
+    border-bottom: 2px #F2F2F2 solid;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.filtres {
+    margin-top: 21px;
+    display: flex;
+
+}
+
+.filtres .type {
+    margin-top: 21px;
+    display: flex;
+
+}
+
+.filtres .f-titre {
+    margin-top: 26px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 19px;
+
+}
+
+/*-----------Filtre types-------*/
+
+.f-type {
+    display: flex;
+    margin-left: 15px;
+    border-top: 2px #DEEBFF solid;
+    border-right: 2px #DEEBFF solid;
+    border-bottom: 2px #DEEBFF solid;
+    border-left: 2px #DEEBFF solid;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.icone-filtre {
+    height: 32px;
+    width: 32px;
+    margin: 0px;
+    background-color: #DEEBFF;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.f-eco .icone-filtre i {
+    padding: 8px 12px 0px 5px;
+    margin-bottom: 0px;
+    text-align: end;
+    color: #0065FC;
+}
+
+.btn-filtre {
+    border-radius: 0px 30px 30px 0px;
+    border: 0px;
+    background-color: white;
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-weight: 700;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.btn-filtre:hover {
+    color: #0065FC;
+}
+
+/*---------------Filtre Familial----------------------*/
+
+
+.f-fam .icone-filtre i {
+    padding: 7px 7px 2px 9px;
+    margin-bottom: 0px;
+    text-align: end;
+    color: #0065FC;
+}
+
+/*---------------Filtre Romantique-------------*/
+
+.f-rom .icone-filtre i {
+    padding: 8px 14px 0px 7px;
+    margin-bottom: 0px;
+    text-align: end;
+    color: #0065FC;
+}
+
+/*---------------Filtre Animaux-------------*/
+
+
+.f-anim .icone-filtre i {
+    padding: 6px 12px 0px 7px;
+    margin-bottom: 0px;
+    text-align: end;
+    color: #0065FC;
+}
+
+/*-----------------------Info-----------------------*/
+.block-rech .info {
+    display: flex;
+    margin-top: 9px;
+}
+
+.icone-info {
+    height: 14px;
+    width: 14px;
+    border-top: 2px #DEEBFF solid;
+    border-right: 2px #DEEBFF solid;
+    border-bottom: 2px #DEEBFF solid;
+    border-left: 2px #DEEBFF solid;
+    border-radius: 15px;
+    margin-top: 13px;
+    margin-right: 5px;
+    text-align: center;
+    padding: 3px 1px 0px 2px;
+    font-size: 10px;
+    color: #0065FC;
+}
+
+.info .res-rech {
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+/*----------------------body------------------*/
+/*-----------les titres communs entre hebergement et populaires*/
+
+.contenu-resultat {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contenu-resultat .titre {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.contenu-resultat .sous-titre {
+    font-family: 'Raleway';
+    font-weight: 350;
+    font-size: 12px;
+}
+
+.contenu-resultat .avec-couleur {
+    color: #0065FC;
+    font-size: 11px;
+    position: absolute;
+    bottom: -6px;
+}
+
+.contenu-resultat .sans-couleur {
+    color: #DEEBFF;
+}
+
+/*---------------Hébergement----------------------*/
+.hebergement .heb-afficher {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+.hebergement {
+    background-color: #F2F2F2;
+    margin-right: 24px;
+    border-radius: 15px;
+    padding: 0px 30px 19px 30px;
+    flex-shrink: 2;
+}
+
+.hebergement .heb {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 4%;
+    margin-top: 18px;
+    margin-bottom: 19px;
+    grid-row-gap: 20px;
+}
+
+.hebergement .titre-section {
+    margin: 28px 0px 0px 0px;
+    padding-bottom: 0px;
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+.hebergement .heb_carte {
+    width: 30%;
+    text-decoration: none;
+    color: #000000;
+}
+.hebergement .heb_carte:hover {
+    box-shadow: 14px 4px 7px -3px #0065fc;
+}
+
+.hebergement .heb-hotel {
+    background-color: white;
+    padding: 5px 5px 14px 5px;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.hebergement .heb-hotel img {
+    height: 112px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+/*--------------les plus populaires---*/
+
+.plus-populaires {
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 0px 30px 19px 30px;
+
+}
+
+.plus-populaires .pop-carte {
+    text-decoration: none;
+    color: black;
+}
+.plus-populaires .pop-carte:hover{
+    box-shadow: 14px 4px 7px -3px #0065fc;
+}
+.plus-populaires .pop-titre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plus-populaires .pop-titre i {
+    margin-top: 29px;
+
+}
+
+.plus-populaires .pop-hotel .pop-description {
+    padding: 0px 0px 0px 10px;
+    width: 60%;
+    position: relative;
+}
+
+.plus-populaires .pop-hotel .avec-couleur {
+    position: absolute;
+    bottom: -4px;
+
+}
+
+.plus-populaires .titre-section {
+
+    margin: 28px 0px 0px 0px;
+    padding-bottom: 0px;
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+.plus-populaires .list-populaires {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    row-gap: 20px;
+
+}
+
+.plus-populaires .pop-hotel {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px 3px 5px 5px;
+}
+
+/*
+.plus-populaires .pop-hotel a {
+    width: 40%;
+}*/
+
+.plus-populaires .pop-hotel img {
+    height: 122px;
+    width: 40%;
+    border-radius: 10px 0px 0px 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+/*---------------------Activités-------------------*/
+.activite-marseille {
+    margin-top: 35px;
+}
+
+.activite-marseille .titre-section {
+    margin: 28px 0px 0px 18px;
+    padding-bottom: 0px;
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+.activite-marseille .liste-activite {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+}
+.activite-marseille .liste-activite .titre-carte {
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 6px;
+    padding-left: 11px;
+    cursor: pointer;
+}
+
+/*--------------Dimension images--------------*/
+.activite-marseille .activite-port img {
+    height: 304px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.activite-marseille .activite-Pomegues img {
+    height: 146px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.activite-marseille .activite-frioul img {
+    height: 97px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.activite-marseille .activite-parc img {
+    height: 302px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.activite-marseille .activite-notredame img {
+    height: 114px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.activite-marseille .activite-longchamp img {
+    height: 128px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+/*-------------------------Remplissage Activité--------*/
+
+.activite-marseille .activite-port {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    width: 23%;
+    margin-bottom: 20px;
+}
+.activite-marseille .activite-port:hover{
+    box-shadow: 6px 4px 3px -3px #0065fc
+}
+.activite-marseille .photo-marseille {
+    width: 23%;
+}
+.activite-marseille .activite-Pomegues {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    margin: 0px 0px 22px 0px;
+}
+.activite-marseille .activite-Pomegues:hover{
+    box-shadow: 6px 4px 3px -3px #0065fc
+}
+.activite-marseille .activite-frioul {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    margin: 0px 0px 22px 0px;
+}
+.activite-marseille .activite-frioul:hover{
+    box-shadow: 6px 4px 3px -3px #0065fc
+}
+.activite-marseille .activite-parc {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    width: 23%;
+    margin: 0px 0px 22px 0px;
+}
+.activite-marseille .activite-parc:hover{
+    box-shadow: 6px 4px 3px -3px #0065fc
+}
+.activite-marseille .activite-notredame {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    margin: 0px 0px 22px 0px;
+}
+.activite-marseille .activite-notredame:hover{
+    box-shadow: 6px 4px 3px -3px #0065fc
+}
+.activite-marseille .activite-longchamp {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    margin: 0px 0px 22px 0px;
+}
+.activite-marseille .activite-longchamp:hover{
+    box-shadow: 6px 4px 3px -3px #0065fc
+}
+/*---------------footer---------*/
+
+footer {
+    margin-top: 30px;
+    padding-left: 28px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: normal;
+}
+
+.box-footer {
+    margin-right: 120px;
+}
+
+footer h2 {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer li {
+    font-family: 'Raleway';
+    font-size: 11px;
+    margin-bottom: 6px;
+    font-weight: 300;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #0065FC;
+}
+
+/*-------------Tablette--------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+    header {
+        margin: 0px 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .block-rech {
+        margin: 0px 25px;
+    }
+
+    .rechercher {
+        width: 40%;
+
+    }
+
+    .filtres .info {
+        margin: 0px;
+    }
+
+    .contenu-resultat {
+        flex-direction: column;
+    }
+
+    /*----------------Hébergement-------------*/
+    .hebergement {
+
+        margin-right: 0px;
+        padding: 0px 20px 24px 20px;
+    }
+
+    .hebergement .heb-hotel {
+        margin-left: 0px;
+    }
+
+    .hebergement .heb-hotel img {
+        height: 96px;
+        width: 100%;
+    }
+
+    /*------------Plus populaires-----------------*/
+    .plus-populaires {
+
+        background-color: #F2F2F2;
+        padding: 0px 15px 7px 15px;
+        border-radius: 15px;
+        margin-top: 50px;
+
+    }
+
+    .plus-populaires .list-populaires {
+        flex-direction: row;
+        margin-bottom: 18px;
+        grid-row-gap: 20px;
+        grid-column-gap: 4%;
+    }
+
+    .plus-populaires .pop-carte {
+        width: 30%;
+        padding-bottom: 17px;
+    }
+
+    .plus-populaires .pop-hotel {
+        display: block;
+        width: 100%;
+        padding: 5px 5px 1px 5px;
+        margin-bottom: 0;
+    }
+
+    .plus-populaires .pop-hotel .pop-description {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .plus-populaires .pop-hotel .pop-description .avec-couleur {
+        position: initial;
+    }
+
+    /*
+        .plus-populaires .pop-hotel a {
+            width: 100%;
+        }*/
+    .plus-populaires .pop-hotel img {
+        height: 96px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+        object-fit: cover;
+    }
+
+    /*--------------Activite-----------*/
+    .activite-marseille .liste-activite {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0px 5px;
+        justify-content: space-around;
+    }
+
+    .activite-marseille .activite-port {
+        margin-bottom: 20px;
+        width: 45%;
+    }
+
+    .activite-marseille .liste-activite .photo-marseille {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 45%;
+    }
+
+    .activite-marseille .activite-port img {
+        height: 360px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .activite-marseille .titre-activite {
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+
+    .activite-marseille .activite-Pomegues {
+        width: 100%;
+    }
+
+    .activite-marseille .activite-Pomegues img {
+        height: 152px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .activite-marseille .activite-frioul {
+        width: 100%;
+    }
+
+    .activite-marseille .activite-frioul img {
+        height: 152px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .activite-marseille .activite-parc {
+        width: 45%;
+    }
+
+    .activite-marseille .activite-parc img {
+        height: 360px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .activite-marseille .activite-notredame {
+        width: 100%;
+    }
+
+    .activite-marseille .activite-notredame img {
+        height: 152px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .activite-marseille .activite-longchamp {
+        width: 100%;
+    }
+
+    .activite-marseille .activite-longchamp img {
+        height: 152px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+}
+
+
+/*-------------------------------SMARTPHONE--------*/
+@media all and (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header img {
+        display: block;
+        text-align: center;
+        padding-left: 0px;
+        margin: 19px auto;
+    }
+
+    .menu ul {
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .menu ul li {
+        padding-bottom: 8px;
+        font-weight: initial;
+        border-bottom: 2px solid #DEEBFF;
+        width: 100%;
+        text-align: center;
+        border-top: none !important;
+    }
+
+    .menu ul li:hover {
+        border-bottom: 2px solid #0065FC;
+    }
+
+    .menu ul li a {
+        font-size: 17px;
+        font-weight: initial;
+    }
+
+    .menu ul li:last-child {
+        margin-left: 0px;
+    }
+
+    .active {
+        color: #0065FC !important;
+    }
+
+    .click-active {
+        border-bottom: 2px solid #0065FC !important;
+        padding-top: 41px !important;
+        border-top: none !important;
+    }
+
+
+    /*--------------------Filtres--------------------------*/
+    .search {
+        margin: 0px 14px 0px 14px;
+    }
+
+    .search h1 {
+        font-size: 23px;
+    }
+
+    .search .sous-titre {
+        font-family: 'Raleway';
+        font-size: 16px;
+        font-weight: initial;
+    }
+
+    .filtres .f-titre {
+        margin-right: 5px;
+        margin-left: 8px;
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 18px;
+
+    }
+
+    .icone-gps {
+        background-color: #F2F2F2;
+        height: 40px;
+        width: 47px;
+        margin: 0px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .rechercher {
+        width: 100%;
+        height: 34px;;
+    }
+
+    .btn-rechercher {
+        display: none;
+    }
+
+    .btn-rechercher-mob {
+
+        border: 0px;
+        background-color: #0065FC;
+        color: white;
+        height: 40px;
+        width: 44px;
+        border-radius: 10px 10px 10px 10px;
+        display: inline-block;
+        margin-left: -9px;
+        cursor: pointer;
+
+    }
+
+    .filtres .type {
+        margin-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .filtres .type div {
+        margin: 6px;
+    }
+
+    .filtres {
+        margin-top: 0px;
+        margin-left: 14px;
+        margin-right: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filtres .f-type {
+        display: flex;
+        margin-left: 0px;
+    }
+
+    .block-rech .info {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+
+    /*----------------Body-----------*/
+    .contenu-resultat {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .contenu-resultat .titre {
+        font-size: 18px;
+        margin: 17px 0px 12px 0px;
+
+    }
+
+    .contenu-resultat .sous-titre {
+        font-family: 'Raleway';
+        font-weight: 300;
+        font-size: 14px;
+        margin-top: 0px;
+    }
+
+    .hebergement .titre-section {
+        margin: 28px 0px 0px 14px;
+    }
+
+    .plus-populaires {
+        border-radius: 0px;
+        padding: 0px 16px 27px 10px;
+    }
+
+    .plus-populaires .titre-section {
+        font-size: 22px;
+    }
+
+    .plus-populaires .pop-hotel {
+        background-color: white;
+
+    }
+
+    .plus-populaires .pop-hotel a {
+
+    }
+
+    .plus-populaires .pop-hotel img {
+        height: 122px;
+        width: 35%;
+    }
+
+    /*--------------Hebergement--------------------*/
+    .hebergement .heb {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 18px 14px 14px 14px;
+    }
+
+    .hebergement {
+        background-color: white;
+        margin-right: 0px;
+        padding: 0px;
+        border-radius: 0px;
+    }
+
+    .hebergement .titre-heb {
+        margin: 28px 0px 0px 14px;
+        padding-bottom: 0px;
+        font-family: 'Raleway';
+        font-size: 22px;
+
+    }
+
+    .hebergement .heb_carte {
+        width: 100%;
+    }
+
+    .hebergement .heb .heb-hotel {
+        box-shadow: 1px 1px 1px 2px #DEEBFF;
+        width: auto;
+        margin-right: 0px;
+    }
+
+    .hebergement .heb-afficher {
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 28px;
+        margin-left: 10px;
+    }
+
+    .hebergement .heb-hotel img {
+        height: 145px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+        cursor: pointer;
+    }
+
+
+    /*-------------------------Activité Marseille-------------------*/
+    .activite-marseille .titre-section {
+        font-family: 'Raleway';
+        margin-left: 14px;
+        font-size: 22px;
+    }
+
+    .activite-marseille .liste-activite .titre-carte {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .activite-marseille .liste-activite {
+        display: flex;
+        flex-direction: column;
+        margin: 18px 14px 0px 14px;
+    }
+
+    .activite-marseille .activite-port {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px #DEEBFF;
+        width: 100%;
+    }
+
+    .activite-marseille .activite-port img {
+        height: 153px;
+        width: 100%;
+
+    }
+
+    .activite-marseille .photo-marseille {
+        width: 100%;
+    }
+
+    .activite-marseille .activite-Pomegues {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px #DEEBFF;
+
+
+    }
+
+    .activite-marseille .activite-Pomegues img {
+        height: 153px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .activite-marseille .activite-frioul {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px #DEEBFF;
+
+
+    }
+
+    .activite-marseille .activite-frioul img {
+        height: 153px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .activite-marseille .activite-parc {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px #DEEBFF;
+        width: 100%;
+    }
+
+    .activite-marseille .activite-parc img {
+        height: 153px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .activite-marseille .activite-notredame {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px #DEEBFF;
+        width: 100%;
+    }
+
+    .activite-marseille .activite-notredame img {
+        height: 153px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .activite-marseille .activite-longchamp {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px #DEEBFF;
+        width: 100%;
+    }
+
+    .activite-marseille .activite-longchamp img {
+        height: 153px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    /********-----------------------------------*/
+    footer {
+        margin-top: 10px;
+        padding-bottom: 14px;;
+        padding-left: 28px;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer h5 {
+        font-family: 'Raleway';
+        font-size: 18px;
+        font-weight: bolder;
+        margin-bottom: 15px;
+    }
+}
